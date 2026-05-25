@@ -2,28 +2,32 @@
 
 ## 📌 Obiettivo
 Analizzare la nazionalità dei cavalli vincenti nel salto ostacoli 
-per capire quali paesi dominano la produzione di cavalli d'élite
-e se cavallo e cavaliere provengono spesso da paesi diversi.
+per capire quali paesi dominano la produzione di cavalli d'élite 
+e se esiste un divario tra paesi produttori di cavalli e paesi produttori di cavalieri.
 
 ## 📊 Dataset
-- FEI World Rankings (longines.fei.org) — top 150 cavalli mondiali
-- Risultati Olimpici 2000–2024 (FEI / Wikipedia)
+- **FEI Jumping Combination Rankings** (April 2026) — top 200 combinazioni mondiali
+- **Paris 2024 Olympics** — risultati individuali salto ostacoli
+- **WBFSH World Ranking List 2024** — top 50 stalloni per performance breeding
 
 ## 🛠️ Strumenti
-- Microsoft Excel (Pivot Table, grafici)
+- Microsoft Excel / Google Sheets (Pivot Table, grafici)
 
 ## 🔍 Domande chiave
-1. Quali paesi producono più cavalli vincenti?
-2. Cavallo e cavaliere sono spesso della stessa nazione?
-3. Come è cambiata la distribuzione geografica nel tempo?
-4. Quali paesi dominano i podi olimpici per origine del cavallo?
+1. Quali paesi producono più stalloni vincenti?
+2. Quali nazionalità dominano le Olimpiadi?
+3. Quali paesi hanno più cavalieri nel ranking FEI mondiale?
+4. C'è un divario tra paesi produttori di cavalli e paesi produttori di cavalieri?
 
-## 💡 Risultati principali
-*In aggiornamento — analisi in corso*
+## 💡 Key Findings
+- 🇩🇪 La **Germania** produce il 34% degli stalloni top mondiali (17/50 WBFSH)
+- 🇳🇱 **GER + NED + BEL** coprono l'**80%** dei top 50 stalloni da salto
+- 🇺🇸 Gli **USA** guidano il ranking FEI con 31 combinazioni top — pur producendo quasi zero stalloni d'élite
+- 🌍 Il mondo anglofono (USA, IRL, GBR) domina i cavalieri ma dipende strutturalmente dai cavalli europei
+- 🇳🇱 L'**Olanda** è l'unico paese dove la produzione di cavalli supera quella di cavalieri d'élite
 
 ## 📁 File
-- `data/show_jumping_data.xlsx` — dataset e analisi completa
-- `charts/` — grafici esportati
+- `show_jumping_data.xlsx` — dataset completo con analisi e grafici
 
 ## ⚠️ Status
-🔄 In progress
+✅ Completato — Maggio 2026
